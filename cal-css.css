@@ -1,0 +1,82 @@
+body{
+	background-color: burlywood;
+}
+
+#calculator{
+	width: 400px;
+	height: 520px;
+	background-color: #eaedef;
+	margin: 0 auto;
+	top: 80px;
+    position: relative;
+    border: solid;
+    
+	
+}
+#result{
+    height: 120px;
+    border: solid;
+}
+#prev_op{
+	text-align: right;
+	height: 20px;
+	margin: 0 20px;
+	padding-top: 20px;
+	font-size: 15px;
+    color: #919191;
+}
+#output{
+	text-align: right;
+	height: 60px;
+	margin: 10px 20px;
+	font-size: 30px;
+}
+#trackpad{
+	height: 400px;
+}
+.operator, .number, .sqrt, .abs{
+	width: 70px;
+	height: 50px;
+	margin: 15px;
+    float: left;
+    border: solid;
+	border-width: 0;
+	font-weight: bold;
+    font-size: 20px;
+    border: solid;
+    text-align:center;
+}
+.number, .sqrt, .abs{
+    background-color: #eaedef;
+    border: solid;
+}
+.number, .operator{
+	cursor: pointer;
+}
+.operator:active, .number:active{
+    font-size: 13px;
+    border: solid;
+}
+.operator:focus, .number:focus, .empty:focus{
+	outline: 0;
+}
+button:nth-child(4){
+    font-size: 20px;
+    border: solid;
+}
+button:nth-child(8){
+    font-size: 20px;
+    border: solid;
+}
+button:nth-child(12){
+    font-size: 20px;
+    border: solid;
+}
+button:nth-child(16){
+    font-size: 20px;
+    border: solid;
+}
+button:nth-child(20){
+    font-size: 20px;
+    border: solid;
+}

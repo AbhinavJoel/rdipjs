@@ -1,0 +1,44 @@
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="cal-css.css">
+		<title>Calculator</title>
+	</head>
+	<body>
+		<div id="container">
+			<div id="calculator">
+				<div id="result">
+					<div id="prev_op">
+						 <div id="prev_op_num"></div>
+						 <div id="prev_op_oper"></div>
+					</div>
+					<div id="output">
+						<div id="op_value"></div>
+					</div>
+				</div>
+				<div id="trackpad">
+					<button class="operator" id="clear" onclick="clearScreen()">C</button>
+					<button class="operator" id="backspace" onclick="cE()">CE</button>
+					<button class="operator" id="%" onclick="selectOperation('%')">%</button>
+					<button class="operator" id="/" onclick="selectOperation('/')">/</button>
+					<button class="number" id="7" onclick="setNumber(7)">7 </button>
+					<button class="number" id="8" onclick="setNumber(8)">8</button>
+					<button class="number" id="9"onclick="setNumber(9)">9</button>
+					<button class="operator" id="*" onclick="selectOperation('*')">&times;</button>
+					<button class="number" id="4"onclick="setNumber(4)">4</button>
+					<button class="number" id="5"onclick="setNumber(5)">5</button>
+					<button class="number" id="6"onclick="setNumber(6)">6</button>
+					<button class="operator" id="-" onclick="selectOperation('-')">-</button>
+					<button class="number" id="1"onclick="setNumber(1)">1</button>
+					<button class="number" id="2"onclick="setNumber(2)">2</button>
+					<button class="number" id="3"onclick="setNumber(3)">3</button>
+					<button class="operator" id="+" onclick="selectOperation('+')">+</button>
+					<button class="sqrt" id="sqrt" onclick="squareroot()">sqrt</button>
+					<button class="number" id="0"onclick="setNumber(0)">0</button>
+					<button class="abs" id="abs" onclick="absolute()">abs</button>
+					<button class="operator" id="=" onclick="calculate()">=</button>
+				</div>
+			</div>
+		</div>
+		<script src="script.js"></script>
+	</body>
+</html>

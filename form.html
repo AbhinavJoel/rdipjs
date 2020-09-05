@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Registration</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+<body class="container">
+<h2>Registration</h2>
+    <form id="form"  action="form.html">
+        <label class="form">Name</label><input type="text" class="form-control" name="input1" id="name" placeholder="Alphabets only" onchange="validate()" >
+        <label class="form">Phone</label><input type="number" class="form-control" name="input2" id="phone" onchange="validate()">
+        <label class="form">Email</label><input type="email" class="form-control" name="input3" id="email" onchange="validate()">
+        <br>
+        <button id="submit" type="submit" value="submit" disabled >Submit</button>
+    </form>
+       <script src="script.js"></script> 
+       
+    </body>
+</html>
